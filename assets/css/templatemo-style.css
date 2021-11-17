@@ -220,7 +220,7 @@ html {
 }
 
 .menu {
-    left: 10%;
+    left: 0%;  /* CHANGED THIS*/
   -webkit-transition: -webkit-transform 233ms cubic-bezier(0, 0, 0.21, 1);
   -webkit-overflow-scrolling: touch;
   background-color: #a43f49;
@@ -728,13 +728,13 @@ section.random-me {
 
 @media screen and (max-width: 1680px) {
     .menu {
-        left: 5%;
+        left: 0%;
     }
 
     .section {
         color: #fff;
         width: 65%;
-        right: 5%;
+        right: 0%;
         left: 30%;
     }
 }
