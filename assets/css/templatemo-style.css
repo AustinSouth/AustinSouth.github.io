@@ -11,9 +11,11 @@ https://templatemo.com/tm-531-reflux
 body {
     font-family: 'Lato', sans-serif;
 }
+/* Basic ****************************************************/
 
 #page-wraper {
-    background: url(../images/page-bg.jpg) no-repeat center center fixed;
+    /* background: url(../images/page-bg.jpg) no-repeat center center fixed; */
+	background-color: #f4decb;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -22,7 +24,7 @@ body {
 }
 
 
-/* Basic */
+/* Basic **************************************************    #5c3821 (dark brown)   #f4decb  (creme)     #916555 (mid Brown)      **/
 
 body {
     overflow-x: hidden;
@@ -42,10 +44,17 @@ a:hover {
 p {
     font-size: 16px;
     line-height: 24px;
-    color: #fff;
+    color: #5a3822;
 }
 
 h4 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #5a3822;
+    letter-spacing: 0.25px;
+}
+
+h1 {
     font-size: 26px;
     font-weight: 700;
     color: #fff;
@@ -125,8 +134,8 @@ html {
 
 .main-nav li:hover a,
 .main-nav li.active a {
-    background: #fff;
-    color: #8c363e;
+    background: #f4decb;
+    color: #916555;
 }
 
 /* Sidebar Menu */
@@ -178,7 +187,7 @@ html {
 
 .menu .social-network ul li a:hover {
     background-color: #fff;
-    color: #a43f49;
+    color: #916555; 
 }
 
 .menu .copyright-text {
@@ -223,7 +232,7 @@ html {
     left: 0%;  /* CHANGED THIS*/
   -webkit-transition: -webkit-transform 233ms cubic-bezier(0, 0, 0.21, 1);
   -webkit-overflow-scrolling: touch;
-  background-color: #a43f49;
+  background-color: #916555; /* #a43f49#7f5240*/
   box-sizing: border-box;
   height: 100vh;  
   max-height: 100vh !important;
@@ -302,20 +311,20 @@ html {
 .section-heading h2 {
     font-size: 32px;
     font-weight: 700;
-    color: #fff;
+    color: #5a3822;
 }
 
 .section-heading .line-dec {
     width: 60px;
     height: 3px;
-    background-color: #a43f49;
+    background-color: #fff;
     margin: 10px auto;
 }
 
 .section-heading span {
     margin-top: 5px;
     font-size: 16px;
-    color: #fff;
+    color: #5a3822;
     letter-spacing: 0.5px;
 }
 
@@ -325,8 +334,8 @@ html {
 .white-button a {
     display: inline-block;
     padding: 12px 20px;
-    background-color: #fff;
-    color: #a43f49;
+    background-color: #916555;
+    color: #fff;
     font-size: 13px;
     font-weight: 800;
     letter-spacing: 0.5px;
@@ -335,15 +344,15 @@ html {
 }
 
 .white-button a:hover {
-    background-color: #a43f49;
-    color: #fff;
+    background-color: #fff;
+    color: #916555;
 }
 
 button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #fff;
-    color: #a43f49;
+    background-color: #916555;
+    color: #fff;
     font-size: 12px;
     font-weight: 800;
     letter-spacing: 0.5px;
@@ -356,8 +365,8 @@ button {
 
 button:hover {
     outline: none;
-    background-color: #a43f49;
-    color: #fff;
+    background-color: #fff;
+    color: #916555;
 }
 
 
