@@ -24,7 +24,7 @@ body {
 }
 
 
-/* Basic **************************************************    #5c3821 (dark brown)   #f4decb  (creme)     #916555 (mid Brown)      **/
+/* Basic **************************************************    #5c3821 (dark brown)   #f4decb  (creme)     #916555 (mid Brown)     #fee4c3 **/
 
 body {
     overflow-x: hidden;
@@ -142,17 +142,27 @@ html {
 
 .menu .image {
     margin-top: 60px;
+	/* border: 8px solid #1c3ce8; */
+	/* margin: 15px auto; */
+    /* display: block; */
+    /* width: 120 px; */
+	/* border-radius: 50%; */
 }
 
+/* testing out things here */
+
+/* end testing */
 .menu .image img {
     width: 140px;
     height: 140px;
     border-radius: 50%;
     text-align: center;
+	/* border: 5px solid #f4decb; */
+	/* USE THIS TO ADD BORDER TO PROFILE PIC */
 }
 
 .menu .author-content {
-    margin: 40px 0px 60px 0px;
+    margin: 20px 0px 20px 0px;
 }
 
 .menu .author-content h4 {
@@ -166,7 +176,8 @@ html {
 }
 
 .menu .social-network {
-    margin-top: 60px;
+    
+	margin: 0px 0px 40px 0px;
 }
 
 .menu .social-network ul li {
@@ -298,7 +309,7 @@ html {
     right: 10%;
     left: 35%;
     position: relative;
-    min-height: 100vh;
+    min-height: 50vh;
     padding-bottom: 80px;
     border-bottom: 3px solid rgba(250, 250, 250, 0.25);
 }
@@ -734,7 +745,91 @@ section.contact-me {
 section.random-me {
     border-bottom: none;
 }
+/* final************************************************ */
+#final input {
+    background-color: rgba(250,250,250,0.1);
+    border: 1px solid rgba(250,250,250,1);
+    border-radius: 0px;
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    padding-left: 15px;
+}
 
+#final input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+#final textarea {
+    background-color: rgba(250,250,250,0.1);
+    border: 1px solid rgba(250,250,250,1);
+    border-radius: 0px;
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 14px;
+    height: 180px;
+    max-height: 220px;
+    line-height: 40px;
+    width: 100%;
+    padding-left: 15px;
+}
+
+#final textarea:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+#final {
+    text-align: center;
+}
+/* final2************************************************ */
+#final2 input {
+    background-color: rgba(250,250,250,0.1);
+    border: 1px solid rgba(250,250,250,1);
+    border-radius: 0px;
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    padding-left: 15px;
+}
+
+#final2 input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+#final2 textarea {
+    background-color: rgba(250,250,250,0.1);
+    border: 1px solid rgba(250,250,250,1);
+    border-radius: 0px;
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 14px;
+    height: 180px;
+    max-height: 220px;
+    line-height: 40px;
+    width: 100%;
+    padding-left: 15px;
+}
+
+#final2 textarea:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+#final2 {
+    text-align: center;
+}
+section.final2-me {
+    border-bottom: none;
+}
 @media screen and (max-width: 1680px) {
     .menu {
         left: 0%;
@@ -760,7 +855,7 @@ section.random-me {
     }
 
     .menu .image {
-        margin-top: 60px;
+        margin-top: 40px;
     }
 }
 
