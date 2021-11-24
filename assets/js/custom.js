@@ -52,7 +52,7 @@
     $(this).removeClass("hover");
   });
   
-$isotope.imagesLoaded().progress( function() {
+
   // my thing
   
   $(".isotope-wrapper").each(function() {
@@ -78,7 +78,7 @@ $isotope.imagesLoaded().progress( function() {
     $(this).on("change", filter);
     filter();
   });
-});  
+ 
   lightbox.option({
     resizeDuration: 200,
     wrapAround: true
