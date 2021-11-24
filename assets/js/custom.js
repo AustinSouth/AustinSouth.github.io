@@ -64,13 +64,13 @@
       $isotope.isotope({ filter: type });
     };
 
-    $isotope.isotope({
+    
+	
+	$isotope.imagesLoaded().progress( function() {
+  $isotope.isotope({
       itemSelector: ".isotope-item",
       layoutMode: "masonry"
     });
-	
-	$isotope.imagesLoaded().progress( function() {
-  $isotope.isotope('layout');
 });  
 
     $(this).on("change", filter);
