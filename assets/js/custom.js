@@ -24,12 +24,10 @@
     }
   });
 
-// I addthis
-
-// layout Isotope after each image loads
 
 
-// up to here
+
+
   $(".owl-carousel").owlCarousel({
     items: 4,
     lazyLoad: true,
@@ -68,14 +66,12 @@
 
     $isotope.isotope({
       itemSelector: ".isotope-item",
-	  // I added this line
-	  percentPosition: true,
       layoutMode: "masonry"
     });
-	// I also added the next three
+	
 	$isotope.imagesLoaded().progress( function() {
   $isotope.isotope('layout');
-}); 
+});  
 
     $(this).on("change", filter);
     filter();
