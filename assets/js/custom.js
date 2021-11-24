@@ -24,6 +24,21 @@
     }
   });
 
+// I addthis
+
+var $grid = $('.grid').isotope({
+  itemSelector: '.grid-item',
+  percentPosition: true,
+  masonry: {
+    columnWidth: '.grid-sizer'
+  }
+});
+// layout Isotope after each image loads
+$grid.imagesLoaded().progress( function() {
+  $grid.isotope('layout');
+}); 
+
+// up to here
   $(".owl-carousel").owlCarousel({
     items: 4,
     lazyLoad: true,
