@@ -54,7 +54,7 @@
   
 
   // my thing
-  $(window).load(function() {
+  $('.isotope-wrapper').imagesLoaded(function() {
  // executes when complete page is fully loaded, including all frames, objects and images
 
 
