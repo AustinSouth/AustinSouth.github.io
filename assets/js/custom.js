@@ -54,7 +54,10 @@
   
 
   // my thing
-  
+  $(window).load(function() {
+ // executes when complete page is fully loaded, including all frames, objects and images
+
+
   $(".isotope-wrapper").each(function() {
     var $isotope = $(".isotope-box", this);
     var $filterCheckboxes = $('input[type="radio"]', this);
@@ -78,9 +81,11 @@
     $(this).on("change", filter);
     filter();
   });
- 
+
   lightbox.option({
     resizeDuration: 200,
     wrapAround: true
   });
+  // to here
+   });
 })(jQuery);
