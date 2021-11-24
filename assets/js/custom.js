@@ -26,17 +26,8 @@
 
 // I addthis
 
-var $grid = $('.grid').isotope({
-  itemSelector: '.grid-item',
-  percentPosition: true,
-  masonry: {
-    columnWidth: '.grid-sizer'
-  }
-});
 // layout Isotope after each image loads
-$grid.imagesLoaded().progress( function() {
-  $grid.isotope('layout');
-}); 
+
 
 // up to here
   $(".owl-carousel").owlCarousel({
@@ -77,8 +68,14 @@ $grid.imagesLoaded().progress( function() {
 
     $isotope.isotope({
       itemSelector: ".isotope-item",
+	  // I added this line
+	  percentPosition: true,
       layoutMode: "masonry"
     });
+	// I also added the next three
+	$isotope.imagesLoaded().progress( function() {
+  $isotope.isotope('layout');
+}); 
 
     $(this).on("change", filter);
     filter();
