@@ -47,17 +47,30 @@ p {
     color: #5a3822;
 }
 
-h4 {
-    font-size: 26px;
-    font-weight: 700;
-    color: #5a3822;
-    letter-spacing: 0.25px;
-}
+/* i { */
+    /* font-size: 16px; */
+    /* line-height: 24px; */
+    /* color: #5a3822; */
+/* } */
 
 h1 {
     font-size: 26px;
     font-weight: 700;
     color: #fff;
+    letter-spacing: 0.25px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #5a3822;
+    letter-spacing: 0.25px;
+	font-style: italic;
+}
+h4 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #5a3822;
     letter-spacing: 0.25px;
 }
 
@@ -81,6 +94,24 @@ html {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+.myImage {
+  float: right;
+  height: 44.1px;
+  width: 300px;
+  font-family: Veranda;
+}
+.myImage2 {
+  float: right;
+  height: 120.5px;
+  width: 335px;
+  font-family: Veranda;
+}
+.myImage3 {
+  float: right;
+  height: 88.8px;
+  width: 326.4px;
+  font-family: Veranda;
+}
 
 *,
 *:before,
@@ -90,6 +121,18 @@ html {
     box-sizing: inherit;
 }
 
+
+	/* ADDING IN HEADER BACKGROUND */
+	/* .header { */
+		
+		/* text-align: center; */
+		/* padding: 80px 45px 40px 45px; */
+		/* background: #1abc9c; */
+		/* color: white; */
+		/* font-size: 30px; */
+	/* } */
+
+/* up to here */
 .clearfix {
     zoom: 1;
 }
@@ -301,6 +344,494 @@ html {
 }
 
 
+/* TRYING TO ADD SCROLLER ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+
+.content-slider {
+  /* width: 55%; */
+  /* height: 360px; */
+  /* background: url(../images/page-bg-2.jpg) repeat top right fixed; */
+  width: 100%;
+    /* position: relative; */
+    min-height: 50vh;
+    padding-bottom: 80px;
+	padding: 30px 45px 40px 45px;
+}
+
+.slider {
+  /* height: 320px; */
+  /* width: 680px; */
+  box-sizing: border-box;
+  margin: 40px auto 0;
+  overflow: visible;
+  position: relative;
+}
+
+.mask {
+  overflow: hidden;
+  height: 320px;
+}
+
+.slider ul {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.slider li {
+  /* width: 680px; */
+  height: 320px;
+  
+  
+  width: 55%;
+    right: 10%;
+    left: 20%;
+    position: relative;
+	
+	
+  box-sizing: inherit;
+  position: absolute;
+  top: -325px;
+  list-style: none;
+}
+
+.slider .quote {
+  font-size: 40px;
+  font-style: italic;
+}
+
+.slider .source {
+  font-size: 20px;
+  text-align: right;
+}
+
+.slider li.anim1 {
+  animation: cycle 30s linear infinite;
+}
+
+.slider li.anim2 {
+  animation: cycle2 30s linear infinite;
+}
+
+.slider li.anim3 {
+  animation: cycle3 30s linear infinite;
+}
+
+.slider li.anim4 {
+  animation: cycle4 30s linear infinite;
+}
+
+.slider li.anim5 {
+  animation: cycle5 30s linear infinite;
+}
+
+.slider li.anim6 {
+  animation: cycle6 30s linear infinite;
+}
+
+.slider li.anim7 {
+  animation: cycle7 30s linear infinite;
+}
+
+.slider li.anim8 {
+  animation: cycle8 30s linear infinite;
+}
+
+.slider li.anim9 {
+  animation: cycle9 30s linear infinite;
+}
+
+.slider li.anim10 {
+  animation: cycle10 30s linear infinite;
+}
+
+.slider:hover li {
+  animation-play-state: paused;
+}
+
+@keyframes cycle {
+  0% {
+    top: 0px;
+  }
+  6% {
+    top: 0px;
+  }
+  8% {
+    top: 0px;
+    opacity: 1;
+    z-index: 0;
+  }
+  10% {
+    top: 325px;
+    opacity: 0;
+    z-index: 0;
+  }
+  11% {
+    top: -325px;
+    opacity: 0;
+    z-index: -1;
+  }
+  50% {
+    top: -325px;
+    opacity: 0;
+    z-index: -1;
+  }
+  96% {
+    top: -325px;
+    opacity: 0;
+    z-index: 0;
+  }
+  98% {
+    top: -325px;
+    opacity: 0;
+  }
+  100% {
+    top: 0px;
+    opacity: 1;
+  }
+}
+
+@keyframes cycle2 {
+  0% {
+    top: -325px;
+    opacity: 0;
+  }
+  8% {
+    top: -325px;
+    opacity: 0;
+  }
+  10% {
+    top: 0px;
+    opacity: 1;
+  }
+  12% {
+    top: 0px;
+    opacity: 1;
+  }
+  18% {
+    top: 0px;
+    opacity: 1;
+    z-index: 0;
+  }
+  20% {
+    top: 325px;
+    opacity: 0;
+    z-index: 0;
+  }
+  21% {
+    top: -325px;
+    opacity: 0;
+    z-index: -1;
+  }
+  100% {
+    top: -325px;
+    opacity: 0;
+    z-index: -1;
+  }
+}
+
+@keyframes cycle3 {
+  0% {
+    top: -325px;
+    opacity: 0;
+  }
+  18% {
+    top: -325px;
+    opacity: 0;
+  }
+  20% {
+    top: 0px;
+    opacity: 1;
+  }
+  22% {
+    top: 0px;
+    opacity: 1;
+  }
+  28% {
+    top: 0px;
+    opacity: 1;
+    z-index: 0;
+  }
+  30% {
+    top: 325px;
+    opacity: 0;
+    z-index: 0;
+  }
+  31% {
+    top: -325px;
+    opacity: 0;
+    z-index: -1;
+  }
+  100% {
+    top: -325px;
+    opacity: 0;
+    z-index: -1;
+  }
+}
+
+@keyframes cycle4 {
+  0% {
+    top: -325px;
+    opacity: 0;
+  }
+  28% {
+    top: -325px;
+    opacity: 0;
+  }
+  30% {
+    top: 0px;
+    opacity: 1;
+  }
+  32% {
+    top: 0px;
+    opacity: 1;
+  }
+  38% {
+    top: 0px;
+    opacity: 1;
+    z-index: 0;
+  }
+  40% {
+    top: 325px;
+    opacity: 0;
+    z-index: 0;
+  }
+  41% {
+    top: -325px;
+    opacity: 0;
+    z-index: -1;
+  }
+  100% {
+    top: -325px;
+    opacity: 0;
+    z-index: -1;
+  }
+}
+
+@keyframes cycle5 {
+  0% {
+    top: -325px;
+    opacity: 0;
+  }
+  38% {
+    top: -325px;
+    opacity: 0;
+  }
+  40% {
+    top: 0px;
+    opacity: 1;
+  }
+  42% {
+    top: 0px;
+    opacity: 1;
+  }
+  48% {
+    top: 0px;
+    opacity: 1;
+    z-index: 0;
+  }
+  50% {
+    top: 325px;
+    opacity: 0;
+    z-index: 0;
+  }
+  51% {
+    top: -325px;
+    opacity: 0;
+    z-index: -1;
+  }
+  100% {
+    top: -325px;
+    opacity: 0;
+    z-index: -1;
+  }
+}
+
+@keyframes cycle6 {
+  0% {
+    top: -325px;
+    opacity: 0;
+  }
+  48% {
+    top: -325px;
+    opacity: 0;
+  }
+  50% {
+    top: 0px;
+    opacity: 1;
+  }
+  52% {
+    top: 0px;
+    opacity: 1;
+  }
+  58% {
+    top: 0px;
+    opacity: 1;
+    z-index: 0;
+  }
+  60% {
+    top: 325px;
+    opacity: 0;
+    z-index: 0;
+  }
+  61% {
+    top: -325px;
+    opacity: 0;
+    z-index: -1;
+  }
+  100% {
+    top: -325px;
+    opacity: 0;
+    z-index: -1;
+  }
+}
+
+@keyframes cycle7 {
+  0% {
+    top: -325px;
+    opacity: 0;
+  }
+  58% {
+    top: -325px;
+    opacity: 0;
+  }
+  60% {
+    top: 0px;
+    opacity: 1;
+  }
+  62% {
+    top: 0px;
+    opacity: 1;
+  }
+  68% {
+    top: 0px;
+    opacity: 1;
+    z-index: 0;
+  }
+  70% {
+    top: 325px;
+    opacity: 0;
+    z-index: 0;
+  }
+  71% {
+    top: -325px;
+    opacity: 0;
+    z-index: -1;
+  }
+  100% {
+    top: -325px;
+    opacity: 0;
+    z-index: -1;
+  }
+}
+
+@keyframes cycle8 {
+  0% {
+    top: -325px;
+    opacity: 0;
+  }
+  68% {
+    top: -325px;
+    opacity: 0;
+  }
+  70% {
+    top: 0px;
+    opacity: 1;
+  }
+  72% {
+    top: 0px;
+    opacity: 1;
+  }
+  78% {
+    top: 0px;
+    opacity: 1;
+    z-index: 0;
+  }
+  80% {
+    top: 325px;
+    opacity: 0;
+    z-index: 0;
+  }
+  81% {
+    top: -325px;
+    opacity: 0;
+    z-index: -1;
+  }
+  100% {
+    top: -325px;
+    opacity: 0;
+    z-index: -1;
+  }
+}
+
+@keyframes cycle9 {
+  0% {
+    top: -325px;
+    opacity: 0;
+  }
+  78% {
+    top: -325px;
+    opacity: 0;
+  }
+  80% {
+    top: 0px;
+    opacity: 1;
+  }
+  82% {
+    top: 0px;
+    opacity: 1;
+  }
+  88% {
+    top: 0px;
+    opacity: 1;
+    z-index: 0;
+  }
+  90% {
+    top: 325px;
+    opacity: 0;
+    z-index: 0;
+  }
+  91% {
+    top: -325px;
+    opacity: 0;
+    z-index: -1;
+  }
+  100% {
+    top: -325px;
+    opacity: 0;
+    z-index: -1;
+  }
+}
+
+@keyframes cycle10 {
+  0% {
+    top: -325px;
+    opacity: 0;
+  }
+  88% {
+    top: -325px;
+    opacity: 0;
+  }
+  90% {
+    top: 0px;
+    opacity: 1;
+  }
+  92% {
+    top: 0px;
+    opacity: 1;
+  }
+  98% {
+    top: 0px;
+    opacity: 1;
+    z-index: 0;
+  }
+  100% {
+    top: 325px;
+    opacity: 0;
+    z-index: 0;
+  }
+}
+
+/* end of test seciton ************************************************************************************* */
 /* Section */
 
 .section {
@@ -335,11 +866,57 @@ html {
 
 .section-heading span {
     margin-top: 5px;
-    font-size: 16px;
+    font-size: 20px;
     color: #5a3822;
     letter-spacing: 0.5px;
 }
 
+
+
+/* I added this in  */
+
+.header {
+  /* repeat center top fixed */
+  background: url(../images/page-bg-2.jpg)  ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+    width: 100%;
+    min-height: 75vh;
+    padding-bottom: 80px;
+	padding: 80px 0px 40px 90px;
+	
+    
+}
+/* .header-text h1{ */
+	/* color: #fff; */
+    /* width: 55%; */
+    /* right: 10%; */
+    /* left: 35%; */
+    /* position: relative; */
+    /* padding-bottom: 80px; */
+	/* text-align: center; */
+	/* padding: 80px 45px 40px 45px; */
+    
+/* } */
+
+
+section.about-me .section-heading {
+    text-align: center;
+    padding: 80px 45px 0px 45px;
+}
+section.about-me h1 {
+    text-align: center;
+    padding: 0px 45px 0px 45px;
+	font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+}
+
+section.about-me {
+    border-bottom: none;
+}
 
 /* Buttons */
 
@@ -474,7 +1051,7 @@ button:hover {
 }
 
 .service-item:hover .first-service-icon {
-    background-image: url(../images/first-main-icon.png);
+    background-image: url(../images/alexintensesmall.jpg);
 }
 
 .service-item .second-service-icon {
@@ -991,4 +1568,5 @@ section.final2-me {
         margin-bottom: 20px;
     }
 }
+
 
