@@ -1037,8 +1037,8 @@ button:hover {
 }
 
 .service-item .service-icon {
-    width: 70px;
-    height: 70px;
+    width: 100%;
+    height: 250px;
     display: inline-block;
     margin-bottom: 30px;
     background-size: cover;
@@ -1047,27 +1047,27 @@ button:hover {
 }
 
 .service-item .first-service-icon {
-    background-image: url(../images/first-white-icon.png);
+    background-image: url(../images/photo-mosaic-small.jpg);
 }
 
 .service-item:hover .first-service-icon {
-    background-image: url(../images/alexintensesmall.jpg);
+    background-image: url(../images/photo-color-small.jpg);
 }
 
 .service-item .second-service-icon {
-    background-image: url(../images/second-white-icon.png);
+    background-image: url(../images/Alex-grey-small.jpg);
 }
 
 .service-item:hover .second-service-icon {
-    background-image: url(../images/second-main-icon.png);
+    background-image: url(../images/Alex-color-small.jpg);
 }
 
 .service-item .third-service-icon {
-    background-image: url(../images/third-white-icon.png);
+    background-image: url(../images/travel-small-wack.jpg);
 }
 
 .service-item:hover .third-service-icon {
-    background-image: url(../images/third-main-icon.png);
+    background-image: url(../images/travel-small-norm.jpg);
 }
 
 .service-item .fourth-service-icon {
