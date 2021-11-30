@@ -863,6 +863,17 @@ html {
     padding: 80px 45px 40px 45px;
 	
 }
+.section-heading1 {
+    text-align: center;
+    padding: 0px 45px 40px 45px;
+	
+}
+.section-heading1 span {
+    margin-top: 5px;
+    font-size: 20px;
+    color: #5a3822;
+    letter-spacing: 0.5px;
+}
 
 .section-heading h2 {
     font-size: 32px;
@@ -1001,7 +1012,7 @@ button:hover {
 
 .right-image-post h4,
 .left-image-post h4 {
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 
 .right-image-post p,
